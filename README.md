@@ -11,9 +11,12 @@ I'd like to port a subset of glibc to windows working with MSVC.
 
 * porting the io subset. fopen/fread/.../fmemopen/.. etc
 * file/dir util funcs. getcwd/... etc.
-* all utf-8 encoded. (hate msvc xxxA/xxxW funcs ^_^)
+* all utf-8 encoded. (hate msvc xxxA/xxxW funcs ^\_^)
 
 ## Porting status
-It's a large project, too many codes to mod.
+Finally, Done.
 
-I need help. Contact me!
+I stopped porting glibc but instead, musl,
+and choose clang as the compiler.
+
+clang is great!
